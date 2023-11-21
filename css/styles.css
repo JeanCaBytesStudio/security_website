@@ -1,0 +1,198 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (min-width: 1700px) { 
+    
+    *{
+      font-size: 20px;
+        
+    }
+    
+    }
+ 
+    
+
+
+@media (max-width: 989px) { 
+    
+    .firstImage{
+        width: 536px;
+        height: 532px;
+        
+    }
+    .lastaImagen{
+        width: 503px;
+        height: 330px;
+
+    }
+    
+    }
+    @media (max-width: 765px) {
+        .firstImage{
+            width: 304px;
+            height: 302px;
+        }
+    *{
+        font-size: small;
+    }
+    .lastaImagen{
+        width: 313.01px;
+        height: 205px;
+        
+    }
+
+    
+    
+     }
+
+
+.body{
+    background-color: #F9FAFB;
+   
+
+}
+
+.header{
+    margin-bottom: 50px;
+}
+
+.logo{
+    margin-left: 55px;
+}
+
+.navLinks{
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+gap: 25px;
+}
+
+
+.firstImage{
+
+    background-color: #F9FAFB;
+    display: flex;
+    padding: 0px;
+    padding-left: 15px;
+    
+}
+
+
+
+
+
+.BienvenidosT{
+    
+    margin: 0px 0px 10px 10px;
+   
+  
+  
+   
+   }
+
+
+.BienvenidosP{
+    
+ display: flex;
+ width: auto;
+height: auto;
+
+flex-shrink: 0;
+}
+
+.Bienvenidos2{
+    display: flex;
+    
+
+   flex-shrink: 0;
+   }
+
+
+
+ 
+
+
+
+.lista{
+    
+    list-style: none;
+
+}
+.serviciosT{
+    display: flex;
+   
+   margin-left: 10;
+  
+   flex-shrink: 0;
+    
+
+}
+
+.ServiciosP{
+     
+ display: flex;
+ 
+
+flex-shrink: 0;
+
+}
+.ServiciosB{
+   background-color: rgba(219, 226, 255, 1);
+
+}
+.badgeLayoud{
+font-weight: bold;
+
+}
+
+.info{
+    margin-left: 10px;
+}
+
+.lastaImagen{
+
+    padding-left: 15px;
+   
+   
+}
+
+
+
+footer{
+    margin-top: 60px;
+    background-color: #F9FAFB;
+    display: flex;
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.footerRow{
+    display: flex;
+
+
+}
+.footerLink{
+    display: flex;
+justify-content: center;
+align-items: center;
+margin:  0px 20px 0px 20px;
+font-weight: bold;
+}
+
+.copy{
+    font-size: smaller;
+}
+
+.color1{
+    color: var(--text-text-primary, #1545F0);
+    
+}
+.color2{
+    color: #1545F0;
+}
+
