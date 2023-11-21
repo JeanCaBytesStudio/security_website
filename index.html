@@ -2,15 +2,32 @@
 <html >
 <head>
   
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="./css/test.css">
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
         <title>Document</title>
+
+
+
 
 </head>
 <body class="body">
+
+  <!--navbar-->
   
    <header class="header">
 
@@ -21,25 +38,26 @@
       <img src="./assets/Logo.svg" alt="MidasBrand" />
     </a>
     <button
-class="navbar-toggler"
-type="button"
-data-bs-toggle="collapse"
-data-bs-target="#navbarNav"
-aria-controls="navbarNav"
-aria-expanded="false"
-aria-label="Toggle navigation"
->
-<span class="align">
-<img src="./assets/Menu Header & Footer.svg" alt="" />
-</span>
-</button>
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="align">
+      <img src="./assets/Menu Header & Footer.svg" alt="" />
+    </span>
+  </button>
+
     <div
-      class="collapse navbar-collapse justify-content-end"
+      class="collapse navbar-collapse "
       id="navbarNav"
     >
       <ul class="navbar-nav ml-auto navLinks">
-        <li class="nav-item">
-          <a class=" nav-link" href="#bienvenidos">Nosotros</a>
+        <li class="nav-item ">
+          <a class=" nav-link "  href="#bienvenidos">Nosotros</a>
         </li>
         <li class="nav-item">
           <a class="nav-link " href="#Servicios">Servicios</a>
@@ -77,6 +95,175 @@ aria-label="Toggle navigation"
 
     
 
+<div class="container layoudCard">
+  
+
+  <!-- Tarjetas estáticas para lg -->
+  <div class="d-none d-lg-block">
+    <div class="row">
+      <div class="col-lg-4">
+        <!-- Contenido de la primera tarjeta -->
+        <div class="card">
+          <!-- Contenido de la tarjeta -->
+<div class="card" style= " height: 263px;">
+          <img src="./assets/icon mejora.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
+           <div class="card-body ">
+             <h5 class="card-title">Mejora tus limites</h5>
+             <p class="card-text">Maximizar el potencial de las organizaciones con tecnología actualizada, soporte técnico, eventos de capacitación y costos eficientes.</p>
+           </div>
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <!-- Contenido de la segunda tarjeta -->
+        <div class="card">
+          <!-- Contenido de la tarjeta -->
+   <div class="card" style= " height: 263px;">
+          <img src="./assets/Icon frame socios.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
+           <div class="card-body ">
+             <h5 class="card-title">Nuestros Socios Tecnológicos</h5>
+             <p class="card-text">Buscamos la mejor calidad para los consumidores mediante la selección de tecnologías líderes en cada campo.</p>
+           </div>
+           </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <!-- Contenido de la tercera tarjeta -->
+        <div class="card">
+          <!-- Contenido de la tarjeta -->
+<div class="card" style= " height: 263px;">
+          <img src="./assets/Icon TI.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
+           <div class="card-body ">
+             <h5 class="card-title">Hacer TI correctamente</h5>
+             <p class="card-text">El uso de tecnología se vuelve crucial para el éxito empresarial. La gestión de TI requiere habilidades y recursos especializadas.</p>
+           </div>
+           </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carrusel para sm, md -->
+  <div id="carouselExample" class="carousel d-md-block d-lg-none" data-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Primera y Segunda Tarjeta en md -->
+      <div class="carousel-item active">
+        <div class="row ">
+          <div class="col-12 col-md-6">
+            <!-- Contenido de la primera tarjeta -->
+            <div class="card">
+              <!-- Contenido de la tarjeta -->
+              <div class="card" style= " height: 263px;">
+          <img src="./assets/icon mejora.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
+           <div class="card-body ">
+             <h5 class="card-title">Mejora tus limites</h5>
+             <p class="card-text">Maximizar el potencial de las organizaciones con tecnología actualizada, soporte técnico, eventos de capacitación y costos eficientes.</p>
+           </div>
+           </div> 
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-none d-md-block">
+            <!-- Contenido de la segunda tarjeta -->
+            <div class="card">
+              <!-- Contenido de la tarjeta -->
+                 <div class="card" style= " height: 263px;">
+          <img src="./assets/Icon frame socios.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
+           <div class="card-body ">
+             <h5 class="card-title">Nuestros Socios Tecnológicos</h5>
+             <p class="card-text">Buscamos la mejor calidad para los consumidores mediante la selección de tecnologías líderes en cada campo.</p>
+           </div>
+           </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+ <!-- Segunda Tarjeta en md -->
+ <div class="carousel-item">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <!-- Contenido de la tercera tarjeta -->
+      <div class="card">
+        <!-- Contenido de la tarjeta -->
+        <div class="card" style= " height: 263px;">
+      <img src="./assets/Icon frame socios.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
+       <div class="card-body ">
+         <h5 class="card-title">Nuestros Socios Tecnológicos</h5>
+         <p class="card-text">Buscamos la mejor calidad para los consumidores mediante la selección de tecnologías líderes en cada campo.</p>
+       </div>
+       </div>  
+      </div>
+    </div>
+    <div class="col-12 col-md-6 d-none d-md-block">
+      <!-- Contenido de la tercera tarjeta -->
+      <div class="card">
+        <!-- Contenido de la tarjeta -->
+        <div class="card" style= " height: 263px;">
+          <img src="./assets/Icon TI.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
+           <div class="card-body ">
+             <h5 class="card-title">Hacer TI correctamente</h5>
+             <p class="card-text">El uso de tecnología se vuelve crucial para el éxito empresarial. La gestión de TI requiere habilidades y recursos especializadas.</p>
+           </div>
+           </div>  
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Tercera Tarjeta en md -->
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <!-- Contenido de la tercera tarjeta -->
+            <div class="card">
+              <!-- Contenido de la tarjeta -->
+              <div class="card" style= " height: 263px;">
+          <img src="./assets/Icon TI.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
+           <div class="card-body ">
+             <h5 class="card-title">Hacer TI correctamente</h5>
+             <p class="card-text">El uso de tecnología se vuelve crucial para el éxito empresarial. La gestión de TI requiere habilidades y recursos especializadas.</p>
+           </div>
+           </div> 
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-none d-md-block">
+            <!-- Contenido de la tercera tarjeta -->
+            <div class="card">
+              <!-- Contenido de la tarjeta -->
+              <div class="card" style= " height: 263px;">
+                <img src="./assets/icon mejora.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
+                 <div class="card-body ">
+                   <h5 class="card-title">Mejora tus limites</h5>
+                   <p class="card-text">Maximizar el potencial de las organizaciones con tecnología actualizada, soporte técnico, eventos de capacitación y costos eficientes.</p>
+                 </div>
+                 </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controles del Carrusel -->
+    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+      <img  src="./assets/chevron-left-MidasSecurity.svg" alt="">
+     
+    </a>
+    <a class="carousel-control-next " href="#carouselExample" role="button" data-slide="next" >
+     <img src="./assets/chevron-right-MidasSecurity.svg" alt="">
+    </a>
+  </div>
+
+
+</div>
+
+  </div>
+ 
+
+
 
         <!--Servicios-->
 
@@ -103,8 +290,6 @@ aria-label="Toggle navigation"
         <!--Contacto-->
         <section style="width: 98%; margin-top: 60px;">
           <section id="Contacto" class="row d-flex flex-row justify-content-center align-items-center"  >
-    
-    
 
           <div class="col-sm-11  col-md-11 col-lg-6  flex-fill  align-self-center info" >
             <h2 class="color1">Contacto</h2>
@@ -123,7 +308,7 @@ aria-label="Toggle navigation"
 <!--footer-->
 
 
-       <footer class="row " style="width: 100%;">
+       <footer class=" " style="width: 100%;">
        
 
           <div class="footerRow justify-content-center ">
@@ -134,7 +319,7 @@ aria-label="Toggle navigation"
               </ul>
 
             </div>
-            <div class="footerLink ">
+            <div class="footerLink">
               <ul class="lista">
                 <li> <a class="color2 " href=""> Servicio</a></li>
                 
@@ -160,9 +345,14 @@ aria-label="Toggle navigation"
             </ul>
           </div>
           </div>
+          <hr class="hr-decoration-slim hr-decoration--primary-400">
           <ul class="lista color2 copy">
             <li><p>Non Copyrighted © 2023 </p></li>
           </ul>
+        
        </footer>
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
