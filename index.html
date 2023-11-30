@@ -2,15 +2,14 @@
 <html >
 <head>
   
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
 
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="./css/test.css">
+    <link rel="stylesheet" href="./css/styles.css">
 
 
 
@@ -27,15 +26,16 @@
 </head>
 <body class="body">
 
+  
   <!--navbar-->
   
-   <header class="header">
+   <header class="header  sticky-top" >
 
 
-<nav class="navbar navbar-expand-lg" >
-  <div class=" container-fluid">
+<nav class="navbar navbar-expand-lg navbar-inverse  " >
+  <div class=" container-fluid navConteiner " >
     <a class="navbar-brand" href="#">
-      <img src="./assets/Logo.svg" alt="MidasBrand" />
+      <img src="./assets/Logo.svg" alt="MidasBrand" class="logobytes" />
     </a>
     <button
     class="navbar-toggler"
@@ -47,7 +47,7 @@
     aria-label="Toggle navigation"
   >
     <span class="align">
-      <img src="./assets/Menu Header & Footer.svg" alt="" />
+      <img src="assets/Menu Header _ Footer.svg" alt="">
     </span>
   </button>
 
@@ -57,13 +57,13 @@
     >
       <ul class="navbar-nav ml-auto navLinks">
         <li class="nav-item ">
-          <a class=" nav-link "  href="#bienvenidos">Nosotros</a>
+          <a class=" nav-link textDesign2 "  href="#bienvenidos">Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#Servicios">Servicios</a>
+          <a class="nav-link textDesign2" href="#Servicios">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Contacto">Contacto</a>
+          <a class="nav-link textDesign2" href="#Contacto">Contacto</a>
         </li>
       </ul>
     </div>
@@ -72,20 +72,22 @@
 
    </header>
     
-  
+  <div class="container-fluid bodyconteiner">
+
+
     <!--Parrafo bienvenidos-->
-    <section id="bienvenidos" style="width: 98%;" class="row d-flex flex-row justify-content-center align-items-center">
-      <div class="col-sm-11  col-md-11 col-lg-6  flex-fill  align-self-center "  >
-        <h1 class="BienvenidosT color1" >Bienvenido a Security Bytes Tech Lt</h1>
+    <section id="bienvenidos"  class="row d-flex flex-row justify-content-center align-items-center bienvenidos">
+      <div class="col-sm-12  col-md-12 col-lg-6  flex-fill  align-self-center "  >
+        <h1 class="  titlesDesign" >Bienvenido a Security Bytes Tech Lt</h1>
          
      
-         <p class="BienvenidosT">Facilitamos la expansión de la tecnología en su organización, simplificando y asegurando la transformación digital. Aliviando las cargas operativas, diseñamos un plan personalizado y permitimos su enfoque en el progreso de la organización. </p>
-         <h2 class="BienvenidosT color1" >100%</h1>
-         <div class="BienvenidosT">Servicio de Garantia</div>
+         <p class=" textDesign">Facilitamos la expansión de la tecnología en su organización, simplificando y asegurando la transformación digital. Aliviando las cargas operativas, diseñamos un plan personalizado y permitimos su enfoque en el progreso de la organización. </p>
+         <h2 class="  titlesDesign" >100%</h1>
+         <div class="textDesign">Servicio de Garantia</div>
   
          </div>
      
-       <div class="col-lg-5 col-sm-12 col-md-11 col-xl-5 d-flex flex-fill  justify-content-center ">
+       <div class="col-lg-6 col-sm-12 col-md-12  d-flex flex-fill  justify-content-center align-items-center">
          <img src="./assets/firstImage.svg" alt="Imagen de Impacto" class="img-fluid object-fit-sm-contain  firstImage" >
          
         </div>
@@ -95,17 +97,18 @@
 
     
 
-<div class="container layoudCard">
+<div class=" spaceCard justify-content-center">
   
 
   <!-- Tarjetas estáticas para lg -->
   <div class="d-none d-lg-block">
-    <div class="row">
-      <div class="col-lg-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-4 layoudCard" >
         <!-- Contenido de la primera tarjeta -->
         <div class="card">
           <!-- Contenido de la tarjeta -->
-<div class="card" style= " height: 263px;">
+<div class="card "    >
+
           <img src="./assets/icon mejora.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
            <div class="card-body ">
              <h5 class="card-title">Mejora tus limites</h5>
@@ -114,11 +117,12 @@
            </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 layoudCard"  >
         <!-- Contenido de la segunda tarjeta -->
         <div class="card">
           <!-- Contenido de la tarjeta -->
-   <div class="card" style= " height: 263px;">
+   <div class="card cardsize"  >
+
           <img src="./assets/Icon frame socios.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
            <div class="card-body ">
              <h5 class="card-title">Nuestros Socios Tecnológicos</h5>
@@ -127,11 +131,12 @@
            </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 layoudCard" >
         <!-- Contenido de la tercera tarjeta -->
-        <div class="card">
+        <div class="card ">
+          
           <!-- Contenido de la tarjeta -->
-<div class="card" style= " height: 263px;">
+<div class="card"  >
           <img src="./assets/Icon TI.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
            <div class="card-body ">
              <h5 class="card-title">Hacer TI correctamente</h5>
@@ -155,7 +160,7 @@
             <!-- Contenido de la primera tarjeta -->
             <div class="card">
               <!-- Contenido de la tarjeta -->
-              <div class="card" style= " height: 263px;">
+              <div class="card" >
           <img src="./assets/icon mejora.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
            <div class="card-body ">
              <h5 class="card-title">Mejora tus limites</h5>
@@ -168,7 +173,7 @@
             <!-- Contenido de la segunda tarjeta -->
             <div class="card">
               <!-- Contenido de la tarjeta -->
-                 <div class="card" style= " height: 263px;">
+                 <div class="card" >
           <img src="./assets/Icon frame socios.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
            <div class="card-body ">
              <h5 class="card-title">Nuestros Socios Tecnológicos</h5>
@@ -188,7 +193,7 @@
       <!-- Contenido de la tercera tarjeta -->
       <div class="card">
         <!-- Contenido de la tarjeta -->
-        <div class="card" style= " height: 263px;">
+        <div class="card" >
       <img src="./assets/Icon frame socios.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
        <div class="card-body ">
          <h5 class="card-title">Nuestros Socios Tecnológicos</h5>
@@ -201,7 +206,7 @@
       <!-- Contenido de la tercera tarjeta -->
       <div class="card">
         <!-- Contenido de la tarjeta -->
-        <div class="card" style= " height: 263px;">
+        <div class="card" >
           <img src="./assets/Icon TI.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
            <div class="card-body ">
              <h5 class="card-title">Hacer TI correctamente</h5>
@@ -220,7 +225,7 @@
             <!-- Contenido de la tercera tarjeta -->
             <div class="card">
               <!-- Contenido de la tarjeta -->
-              <div class="card" style= " height: 263px;">
+              <div class="card" >
           <img src="./assets/Icon TI.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
            <div class="card-body ">
              <h5 class="card-title">Hacer TI correctamente</h5>
@@ -233,7 +238,7 @@
             <!-- Contenido de la tercera tarjeta -->
             <div class="card">
               <!-- Contenido de la tarjeta -->
-              <div class="card" style= " height: 263px;">
+              <div class="card" >
                 <img src="./assets/icon mejora.svg" class=" rounded float-start logoCard" width="75.41px" height="75.41px"> 
                  <div class="card-body ">
                    <h5 class="card-title">Mejora tus limites</h5>
@@ -260,7 +265,7 @@
 
 </div>
 
-  </div>
+  
  
 
 
@@ -268,89 +273,131 @@
         <!--Servicios-->
 
 
-        <section class="row d-flex flex-row justify-content-center align-items-center" style="width: 98%;" id="Servicios">
-        <div class="col-11 " >
-        <h2 class=" serviciosT  color1">Servicios</h1 >
-        <p class=" ServiciosP"> Ofrecemos servicios integrales para promover el desarrollo comercial y la eficiencia en la gestión, incluyendo la mejora de estándares de excelencia, capacitación del personal, evaluación de desempeño y colaboración para alcanzar objetivos.</p>
-        
-      
-          <div class="badgeLayoud color2 ">
-            <span class="badge  ServiciosB">Seguridad Cibernética</span>
-            <span class="badge  ServiciosB">Seguridad del Correo Electrónico Empresarial</span>
-            <br>
-            <span class="badge  ServiciosB">Seguridad de Dispositivos Moviles</span>
-            <span class="badge  ServiciosB">TI Remota</span>
-            <span class="badge  ServiciosB">Cumplimiento de TI</span>
-            <span class="badge  ServiciosB">Soluciones de Documentos</span>
-          
+        <section class="row d-flex flex-row justify-content-center align-items-center"  id="Servicios">
+        <div class="col-lg-12 "  >
+          <div class="serviciosW">
+            <h2 class="  titlesDesign" >Servicios</h1 >
+              <p class="  textDesign" > Ofrecemos servicios integrales para promover el desarrollo comercial y la eficiencia en la gestión, incluyendo la mejora de estándares de excelencia, capacitación del personal, evaluación de desempeño y colaboración para alcanzar objetivos.</p>
+            </div>
+            
+                <div class="  textDesign2 ">
+                  <span class="badge  ServiciosB"  >Seguridad Cibernética</span>
+                  <span class="badge  ServiciosB badgeS" >Seguridad del Correo Electrónico Empresarial</span>
+                  <br>
+                  <span class="badge  ServiciosB d-lg-none d-md-none" >Seguridad del Correo <br>Electrónico Empresarial</span>
+                  <span class="badge  ServiciosB">Seguridad de Dispositivos Moviles</span>
+                  <span class="badge  ServiciosB">TI Remota</span>
+                  <span class="badge  ServiciosB">Cumplimiento de TI</span>
+                  <span class="badge  ServiciosB">Soluciones de Documentos</span>
           </div>
+        
+          
+          
         </div>
         </section>
+ <!--Contacto-->
+ <section  class="contactoLayoud">
+  <section id="Contacto" class="row d-flex flex-row justify-content-center align-items-center"  >
 
-        <!--Contacto-->
-        <section style="width: 98%; margin-top: 60px;">
-          <section id="Contacto" class="row d-flex flex-row justify-content-center align-items-center"  >
+  <div class="col-sm-12  col-md-12 col-lg-6  flex-fill  align-self-center info" >
+    <h2 class=" titlesDesign " >Contacto</h2>
+    <div class=" textDesign2 "  >
+   
+      <section class="row ">
+        <div class="col-1 p-0">
+          <img  class="contactIcon" src="./assets/smartphone-Midas.svg" alt="Home" />
+        </div>
+    
+        <div class="col ps-5 ps-lg-none general_font align-self-center contactIconL">
+         <a href=""> +506 87338162</a>
+        </div>
+      </section>
 
-          <div class="col-sm-11  col-md-11 col-lg-6  flex-fill  align-self-center info" >
-            <h2 class="color1">Contacto</h2>
-            <div class="color2">
-            <p ><img src="assets/contact.svg" alt=""> +506 2291-2651</p>
-            <p><img src="assets/mail.svg" alt=""> servicioalcliente@securitybytestech.com</p>
-            <p><img src="assets/home.svg" alt=""> Oficentro La Sabana, Torre 6 – Piso 7 – Oficina 708, Sabana Sur, San José, Costa Rica.</p>
-            </div>
-          </div>
+      <section class="row coctactelemnt">
+        <div class="col-1 p-0">
+          <img  src="./assets/mail-Midas.svg" alt="Home" class="contactIcon" />
+        </div>
+    
+        <div class="col ps-5 ps-lg-none general_font align-self-center contactIconL" >
+          <a href="servicioalcliente@securitybytestech.com">servicioalcliente@ securitybytestech.com</a>
+        </div>
+      </section>
 
-          <div class="col-lg-5 col-sm-12 d-flex me-5 flex-fill  justify-content-center align-self-center ">
-            <img src="./assets/Cybersecurity Concept Illustration 1.svg" class= "img-fluid object-fit-sm-contain lastaImagen  " >
-          </div>
+
+      <section class="row coctactelemnt">
+        <div class="col-1 p-0 ">
+          <img src="./assets/home-Midas.svg" alt="Home" class="contactIcon" />
+        </div>
+        <div class="col ps-5 ps-lg-none general_font align-self-start contactIconL">
+          <a target="_blank" href="https://maps.app.goo.gl/VXXyovHysxiK45KWA" >
+          Oficentro La Sabana, Torre 6 – Piso 7 – Oficina 708, Sabana Sur,
+          San José, Costa Rica.</a>
+        </div>
+      </section>
+
+    
+    </div>
+  </div>
+
+  <div class="col-lg-6 col-md-12 col-sm-12 d-flex me-5 flex-fill  justify-content-center align-self-center ">
+    <img src="./assets/Cybersecurity Concept Illustration 1.svg" class= "img-fluid object-fit-sm-contain lastaImagen  " >
+  </div>
 </section>
 </section>
+</section>
+
 <!--footer-->
 
 
-       <footer class=" " style="width: 100%;">
-       
+      
+     <footer class="  " >
+     
 
-          <div class="footerRow justify-content-center ">
+      <div class="row footerRow justify-content-center ">
 
-            <div class="footerLink ">
-              <ul class="lista">
-                <li > <a class="color2 " href=""> Nosotros</a></li>
-              </ul>
-
-            </div>
-            <div class="footerLink">
-              <ul class="lista">
-                <li> <a class="color2 " href=""> Servicio</a></li>
-                
-              </ul>
-
-            </div>
-            <div class="footerLink ">
-              <ul class="lista">
-                <li> <a class="color2 " href=""> Contacto</a></li>
-              </ul>
-            </div>
-          </div>
-        
-        <div class="footerRow justify-content-center" >
-          <div >
-            <ul class="lista" style="padding: 5px;">
-              <li> <img src="assets/ic_baseline-facebook.svg" alt=""></li>
-            </ul>
-          </div>
-          <div >
-            <ul class="lista" style="padding: 5px;">
-              <li> <img src="assets/entypo-social_linkedin-with-circle.svg" alt=""></li>
-            </ul>
-          </div>
-          </div>
-          <hr class="hr-decoration-slim hr-decoration--primary-400">
-          <ul class="lista color2 copy">
-            <li><p>Non Copyrighted © 2023 </p></li>
+        <div class="footerLink col-lg-2 col-md-2 col-sm-12">
+          <ul class="lista">
+            <li > <a class="textDesign2 " href="#bienvenidos"> Nosotros</a></li>
           </ul>
-        
-       </footer>
+
+        </div>
+        <div class="footerLink col-lg-2 col-md-2 col-sm-12">
+          <ul class="lista">
+            <li> <a class="textDesign2 " href="#Servicios"> Servicio</a></li>
+            
+          </ul>
+
+        </div>
+        <div class="footerLink col-lg-2 col-md-2 col-sm-12">
+          <ul class="lista">
+            <li> <a class="textDesign2 " href="#Contacto"> Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    
+    <div class="footerRow justify-content-center" >
+      <div >
+        <ul class="lista webs"  >
+          <li> <a target="_blank" href="https://www.facebook.com/BytesStudio?mibextid=LQQJ4d"><img src="assets/ic_baseline-facebook.svg" alt="" ></a>
+          </li>
+        </ul>
+      </div>
+      <div >
+        <ul class="lista webs" >
+          <li> <a target="_blank" href="https://www.linkedin.com/company/bytes-studio/"> <img src="assets/entypo-social_linkedin-with-circle.svg" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      <hr class="hr-decoration-slim hr-decoration--primary-400">
+      <ul class="lista  copy ">
+        <li><p class="">Non Copyrighted © 2023 </p></li>
+      </ul>
+    
+   </footer>
+
+
+</div>
        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
